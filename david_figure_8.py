@@ -1,4 +1,4 @@
-from base_robot_prime_bot_m import BaseRobot
+from base_robot_inventor_bot_m import BaseRobot
 from david_utils import play_random_beeps
 from pybricks.tools import wait, StopWatch
 from pybricks.parameters import Stop
