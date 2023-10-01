@@ -13,10 +13,7 @@ wheelDiameter = 55
 axleTrack = 129
 eyes = UltrasonicSensor(Port.D)
 
-#
-# Natalia's Figure 8
-#
-
+# db = DriveBase(leftMotor, rightMotor, wheelDiameter, axleTrack)
 db = GyroDriveBase(leftMotor, rightMotor, wheelDiameter, axleTrack)
 db.drive(400,100)
 wait (3300)
