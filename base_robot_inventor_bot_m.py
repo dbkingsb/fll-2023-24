@@ -10,7 +10,8 @@ class BaseRobot:
         self.hub = PrimeHub()
         self.leftMotor = Motor(Port.B, Direction.COUNTERCLOCKWISE)
         self.rightMotor = Motor(Port.F, Direction.CLOCKWISE)
-        self.topLeftMotor = Motor(Port.C)
+        self.topLeftMotor = Motor(Port.A, Direction.COUNTERCLOCKWISE)
+        self.topRightMotor = Motor(Port.C, Direction.CLOCKWISE)
         self.wheelDiameter = 56
         self.axleTrack = 129
         self.eyes = UltrasonicSensor(Port.D)

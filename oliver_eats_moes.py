@@ -1,19 +1,20 @@
-from pybricks.hubs import PrimeHub
-from pybricks.pupdevices import Motor, ColorSensor, UltrasonicSensor
-from pybricks.parameters import Button, Color, Direction, Port, Side, Stop
-from pybricks.robotics import DriveBase, GyroDriveBase
+from base_robot_inventor_bot_m import BaseRobot
+from david_utils import play_random_beeps
 from pybricks.tools import wait, StopWatch
+from pybricks.parameters import Stop
+Moes = BaseRobot()
 
-class BaseRobot:
 
-    def __init__(self):
-        self.hub = PrimeHub()
-        self.leftMotor = Motor(Port.B, Direction.COUNTERCLOCKWISE)
-        self.rightMotor = Motor(Port.F, Direction.CLOCKWISE)
-        self.topLeftMotor = Motor(Port.C)
-        self.wheelDiameter = 56
-        self.axleTrack = 129
-        self.eyes = UltrasonicSensor(Port.D)
-        self.db = GyroDriveBase(self.leftMotor, self.rightMotor,
-            self.wheelDiameter, self.axleTrack)
+
+Moes.db.straight(450)
+Moes.db.curve(300,180,wait=False)
+Moes.topLeftMotor.run_angle(50,-45,wait=False)
+Moes.topRightMotor.run_angle(50,-45,wait=False)
+Moes.db.curve(300,180)
+Moes.db.straight(150)
+Moes.topLeftMotor.run_angle(50,45,wait=False)
+Moes.topRightMotor.run_angle(50,45)
+Moes.db.straight(-550)
+
+
 
