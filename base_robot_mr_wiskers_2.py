@@ -10,7 +10,7 @@ class BaseRobot:
         self.hub = PrimeHub()
         self.leftMotor = Motor(Port.B, Direction.COUNTERCLOCKWISE)
         self.rightMotor = Motor(Port.A, Direction.CLOCKWISE)
-        self.frontMotor = Motor(Port.C, Direction.COUNTERCLOCKWISE)
+        self.frontMotor = Motor(Port.C)
         self.wheelDiameter = 87
         self.axleTrack = 114
         self.db = DriveBase(self.leftMotor, self.rightMotor,

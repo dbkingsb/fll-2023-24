@@ -7,6 +7,6 @@ selected = hub_menu("A", "B", "C")
 if selected == "A":
     import run_example_1
 elif selected == "B":
-    import example_run_2
+    import run_example_2
 elif selected == "C":
-    import example_run_2
+    import run_example_2
