@@ -10,7 +10,7 @@ class BaseRobot:
         self.hub = PrimeHub()
         self.leftMotor = Motor(Port.B, Direction.COUNTERCLOCKWISE)
         self.rightMotor = Motor(Port.A, Direction.CLOCKWISE)
-        self.frontMoter = Motor(Port.C)
+        self.frontMotor = Motor(Port.C, Direction.COUNTERCLOCKWISE)
         self.wheelDiameter = 87
         self.axleTrack = 114
         self.db = GyroDriveBase(self.leftMotor, self.rightMotor,
