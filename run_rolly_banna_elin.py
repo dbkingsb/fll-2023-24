@@ -1,0 +1,12 @@
+from base_robot_mr_wiskers_2 import BaseRobot
+harold = BaseRobot()
+harold.db.straight(70)
+harold.db.turn(92)
+harold.frontMotor.run_target(300,75)
+harold.db.straight(480)
+harold.frontMotor.run_until_stalled(-300)
+harold.db.straight(-200)
+harold.db.turn(-29)
+harold.db.straight(95)
+harold.frontMotor.run_target(270,80)
+harold.db.curve(-100,70)
