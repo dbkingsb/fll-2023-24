@@ -5,9 +5,12 @@ from pybricks.parameters import Stop
 
 robot = BaseRobot()
 play_random_beeps(robot.hub)
-robot.db.curve(100,180)
-robot.db.curve(100,-360)
-robot.db.curve(100,180)
-play_random_beeps(robot.hub)
+print(robot.db.settings())
+robot.db.settings(800, 600, 254, 600)
+
+for i in range(10):
+    robot.db.straight(3000)
+    robot.db.turn(180)
+    # robot.db.curve(300,360,Stop.NONE)
 
 
