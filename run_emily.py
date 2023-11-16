@@ -1,21 +1,31 @@
 from base_robot_mr_wiskers_2 import BaseRobot
 blue= BaseRobot()
 
-blue.db.settings(800,400,150,200)
+blue.db.settings(900,900,900,900)
+
+#driving to emily
 blue.frontMotor.run_target(400,80)
 blue.db.straight(280)
 blue.db.turn(-93)
-blue.frontMotor.run_target(270,11)
-blue.db.straight(230)
+
+#picking her up
+blue.frontMotor.run_target(100,11)
+blue.db.straight(255)
 blue.db.turn(-38)
 blue.db.straight(40)
-blue.frontMotor.run_target(270,20)
+blue.frontMotor.run_target(270,35)
+
+#Traveling to the popcorn
 blue.db.turn(42)
-blue.db.straight(945)
+blue.db.straight(980)
 blue.db.turn(45)
-blue.db.straight(300)
-blue.frontMotor.run_target(270,0)
-blue.db.straight(-200)
+blue.db.straight(230)
+
+#dropping off
+blue.frontMotor.run_target(270,3)
+blue.db.straight(-400)
 blue.frontMotor.run_target(270,90)
-blue.db.turn(-90)
-blue.db.straight(450)
+
+#going home
+blue.db.turn(-50)
+blue.db.straight(500)
