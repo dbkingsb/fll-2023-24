@@ -11,11 +11,11 @@ elif selected == "B":
 elif selected == "C":
     import run_emily
 elif selected == "D":
-    import run_rolly_banna_elin
-elif selected == "E":
-    import KFC
-elif selected == "F":
-    import KFC_2
-elif selected == "G":
     import run_itty_bitty_kitty_elin
+elif selected == "E":
+    import run_rolly_banna_elin
+elif selected == "F":
+    import KFC
+elif selected == "G":
+    import KFC_2
 
