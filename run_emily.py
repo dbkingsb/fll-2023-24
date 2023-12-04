@@ -13,7 +13,7 @@ blue.frontMotor.run_target(100,11)
 blue.db.straight(255)
 blue.db.turn(-38)
 blue.db.straight(40)
-blue.frontMotor.run_target(270,35)
+blue.frontMotor.run_target(200,35)
 
 #Traveling to the popcorn
 blue.db.turn(42)
