@@ -1,15 +1,23 @@
 from base_robot_mr_wiskers_2 import BaseRobot
 from pybricks.parameters import Stop
 harold = BaseRobot()
+harold.db.settings(800, 400, 300, 200)
 harold.frontMotor.run_target(300,75,wait=False)
+
+#go to camera
 harold.db.straight(70)
-harold.db.turn(92)
-harold.db.straight(475)
+harold.db.turn(94)
+harold.db.straight(465)
+
+# move camera
 harold.frontMotor.run_until_stalled(-300)
 harold.db.straight(-200)
 harold.db.turn(-29)
-harold.db.straight(95)
+harold.db.straight(110)
 harold.frontMotor.run_target(270,80,wait=False)
-# harold.db.curve(-100,70)
-# harold.db.curve(100,-130)
-harold.db.straight(-250)
+
+
+#go to east home
+harold.db.turn(-65)
+harold.db.curve(200,95,Stop.NONE)
+harold.db.straight(1100)
