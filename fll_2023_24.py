@@ -9,7 +9,7 @@ if selected == "A":
 elif selected == "B":
     import run_east_side_push
 elif selected == "C":
-    import run_emily
+    import run_emily_enhanced
 elif selected == "D":
     import run_Oliver
 elif selected == "E":
