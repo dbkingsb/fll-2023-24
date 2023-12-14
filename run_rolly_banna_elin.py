@@ -20,4 +20,5 @@ harold.frontMotor.run_target(270,80,wait=False)
 #go to east home
 harold.db.turn(-65)
 harold.db.curve(200,95,Stop.NONE)
+harold.db.settings(800,1000,400,1000)
 harold.db.straight(1100)
