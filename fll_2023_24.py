@@ -1,11 +1,11 @@
 from pybricks.tools import hub_menu
 
 # Choose a letter.
-selected = hub_menu("A", "B", "C", "D", "E", "F", "G")
+selected = hub_menu("A", "B", "C", "D", "E", "F")
 
 # Based on the selection, run a program.
 if selected == "A":
-    import run_westside_lift
+    import run_westside_lift_2
 elif selected == "B":
     import run_east_side_push2
 elif selected == "C":
@@ -15,7 +15,6 @@ elif selected == "D":
 elif selected == "E":
     import run_rolly_banna_elin
 elif selected == "F":
-    import KFC
-elif selected == "G":
-    import KFC_2
+    import KFC_2_2
+
 
