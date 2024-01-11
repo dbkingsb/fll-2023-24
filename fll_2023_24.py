@@ -1,7 +1,7 @@
 from pybricks.tools import hub_menu
 
 # Choose a letter.
-selected = hub_menu("A", "B", "C", "D", "E", "F")
+selected = hub_menu("A", "B", "C", "D", "E", "F", "G")
 
 # Based on the selection, run a program.
 if selected == "A":
@@ -16,5 +16,7 @@ elif selected == "E":
     import run_rolly_banna_elin
 elif selected == "F":
     import KFC_2_2
+elif selected == "G":
+    import Spinny_chicken
 
 
