@@ -6,7 +6,7 @@ blue.db.settings(800,600,800,600)
 
 blue.db.straight(200)
 blue.db.turn(-60)
-blue.db.straight(220)
+blue.db.straight(230)
 blue.db.turn(-74)
 blue.db.straight(200)
 blue.db.curve(20,50)
