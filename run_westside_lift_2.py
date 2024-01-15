@@ -22,7 +22,7 @@ Puffball.db.turn(-57.5)
 # Puffball.db.straight(55)
 
 # Change Scene
-Puffball.frontMotor.run_target(270,-15,wait=False)
+Puffball.frontMotor.run_target(270,0,wait=False)
 Puffball.db.settings(400, 400, 300, 400)
 Puffball.db.straight(165)
 Puffball.db.straight(-90)
@@ -35,11 +35,11 @@ Puffball.frontMotor.run_target(270,75,wait=False)
 Puffball.db.turn(90)
 Puffball.db.curve(340,45,Stop.NONE)
 Puffball.db.straight(180)
-Puffball.db.turn(-95)
+Puffball.db.turn(-90)
 Puffball.db.straight(55)
 
 # Do Immersive Experience
-Puffball.frontMotor.run_time(-200,1100)
+Puffball.frontMotor.run_time(-100,1100)
 
 # Back to East Home
 Puffball.db.straight(-10,Stop.NONE)
@@ -47,4 +47,4 @@ Puffball.frontMotor.run_target(270,75,wait=False)
 Puffball.db.turn(90)
 Puffball.db.straight(450,Stop.NONE)
 Puffball.db.curve(400,70,Stop.NONE)
-Puffball.db.straight(450,Stop.NONE)
+Puffball.db.straight(445,Stop.NONE)
