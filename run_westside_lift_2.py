@@ -39,7 +39,7 @@ Puffball.db.turn(-90)
 Puffball.db.straight(55)
 
 # Do Immersive Experience
-Puffball.frontMotor.run_time(-100,1100)
+Puffball.frontMotor.run_time(-200,1100)
 
 # Back to East Home
 Puffball.db.straight(-10,Stop.NONE)
