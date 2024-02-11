@@ -19,7 +19,7 @@ blue.db.straight(795,Stop.NONE)
 
 #dropping off emily
 blue.db.curve(305,70)
-blue.db.straight(-150,Stop.NONE)
+blue.db.straight(-150)
 
 #dropping off izzy
 blue.db.turn(15)
