@@ -6,7 +6,7 @@ harold.frontMotor.run_target(300,75,wait=False)
 
 #go to camera
 harold.db.straight(70)
-harold.db.turn(95)
+harold.db.turn(96)
 harold.db.straight(515)
 
 # # move camera
@@ -19,7 +19,7 @@ harold.frontMotor.run_until_stalled(-300)
 
 harold.db.straight(-200)
 harold.db.curve(300,-35)
-harold.frontMotor.run_target(300,75)
+harold.frontMotor.run_target(100,75)
 harold.db.turn(-65)
 harold.db.curve(210,120,Stop.NONE)
 harold.db.straight(1300)
