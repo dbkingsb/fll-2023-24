@@ -21,14 +21,20 @@ Puffball.db.curve(380,-82)
 Puffball.db.turn(-57.5)
 # Puffball.db.straight(55)
 
-# Change Scene
+# Change Scene Orange
 Puffball.frontMotor.run_target(270,0,wait=False)
 Puffball.db.settings(400, 400, 300, 400)
-Puffball.db.straight(165)
-Puffball.db.straight(-90)
+Puffball.db.straight(185)
+Puffball.db.straight(-110)
 Puffball.db.straight(115)
 Puffball.db.settings(800, 800, 300, 400)
 Puffball.db.straight(-175)
+# Change Scene 2 Pink
+#Puffball.frontMotor.run_target(270,0,wait=False)
+# Puffball.db.settings(400, 400, 300, 400)
+# Puffball.db.straight(185)
+# Puffball.db.settings(800, 800, 300, 400)
+# Puffball.db.straight(-175)
 
 # Drive to Immersive Experience
 Puffball.frontMotor.run_target(270,75,wait=False)
